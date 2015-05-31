@@ -1,0 +1,62 @@
+body {
+	background-image: url(../images/bgc.jpg);
+	font-family: helvetica, Arial, sans-serif;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.main {
+	width: 600px;
+	background-color: rgba(255,255,255,0.7);
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 10px white;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	text-align: center;
+}
+
+/*like this*/
+h2 {text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 10px;
+
+
+}
+
+img {
+
+	margin: 0 auto;
+	display: block;
+	width: 200px;
+	border: 5px solid black;
+	border-radius: 50px;
+}
+
+
+p,
+ul,
+ol {
+	line-height: 1.4;
+	list-style: none;
+	padding-left: 0;
+
+
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #fe0099;
+}
+a:hover {
+	text-decoration: underline;
+	color: #ff33cc;
+}
