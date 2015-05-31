@@ -35,7 +35,7 @@ $(function() {
 	//hide all the content
 	$('h3').next().hide();
 
-	$(.img).on('click' askQuestion);
+	$('img').on('click' askQuestion);
 
 
 	// when the user clicks an h3
