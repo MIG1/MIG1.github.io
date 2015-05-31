@@ -1,4 +1,4 @@
-	function askQuestions() {
+function askQuestions() {
 
 	var firstName = prompt('what is your first name');
 	var lastName = prompt('what is your lastName');
@@ -26,7 +26,7 @@
 	// if (firstName
 
 
-
+}
 
 // when the page has loaded
 
@@ -35,7 +35,7 @@ $(function() {
 	//hide all the content
 	$('h3').next().hide();
 
-	$('img').on('click' askQuestion);
+	$('img').on('click', askQuestions);
 
 
 	// when the user clicks an h3
